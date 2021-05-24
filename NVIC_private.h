@@ -31,6 +31,14 @@
 
 #define SCB_AIRCR      *((u32*)0xE000ED0c)                  /*provides priority grouping control */
 
+    /*GroupPriority*/
+				 
+#define GROUP4          0x05fa0300          /* 4 bits for Group & 0 bits for Sub Groub */
+#define GROUP3          0x05fa0400          /* 3 bits for Group & 1 bits for Sub Groub */
+#define GROUP2          0x05fa0500          /* 2 bits for Group & 2 bits for Sub Groub */
+#define GROUP1          0x05fa0600          /* 1 bits for Group & 3 bits for Sub Groub */
+#define GROUP0          0x05fa0700          /* 0 bits for Group & 4 bits for Sub Groub */
+
 
 
 
